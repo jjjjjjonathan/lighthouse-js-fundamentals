@@ -1,5 +1,6 @@
-const raining = true;
-const temperature = -1;
+// if statements
+const raining = false;
+const temperature = -41;
 
 if (raining) {
   console.log("Don't forget your umbrella!");
@@ -14,3 +15,19 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+// logical operators
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) { // && means and
+  console.log("You are eligible to vote.");
+}
+
+if (temperature < -40 || temperature > 40) { // || means or
+  console.log("Maybe going outside isn't such a great idea...");
+}
+
+if (!raining) { // ! means not
+  console.log("Leave your umbrella at home!");
+}
